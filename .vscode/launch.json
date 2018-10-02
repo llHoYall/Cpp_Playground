@@ -1,0 +1,26 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Debug: auto",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "auto",
+			"cwd": "${workspaceRoot}/playground/auto/build/"
+		},
+		{
+			"name": "Debug: decltype",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "decltype",
+			"cwd": "${workspaceRoot}/playground/decltype/build/"
+		},
+		{
+			"name": "Debug: for-loop",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "for-loop",
+			"cwd": "${workspaceRoot}/playground/for-loop/build/"
+		}
+	]
+}
