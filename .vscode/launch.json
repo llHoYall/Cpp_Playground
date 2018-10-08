@@ -35,6 +35,13 @@
 			"request": "launch",
 			"target": "vector",
 			"cwd": "${workspaceRoot}/playground/vector/build/"
+		},
+		{
+			"name": "Debug: sort",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "sort",
+			"cwd": "${workspaceRoot}/playground/sort/build/"
 		}
 	]
 }
