@@ -65,6 +65,15 @@
 			"group": "build"
 		},
 		{
+      "label": "build: for_each",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}/playground/for_each"
+			},
+      "command": "mkdir -p build && cd build && cmake .. && make",
+			"group": "build"
+		},
+		{
 			"label": "clean",
 			"type": "shell",
 			"command": "rm -rf **/build"

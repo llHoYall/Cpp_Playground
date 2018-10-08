@@ -50,5 +50,12 @@
 			"target": "find",
 			"cwd": "${workspaceRoot}/playground/find/build/"
 		},
+		{
+			"name": "Debug: for_each",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "for_each",
+			"cwd": "${workspaceRoot}/playground/for_each/build/"
+		},
 	]
 }
