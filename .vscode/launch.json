@@ -57,5 +57,12 @@
 			"target": "for_each",
 			"cwd": "${workspaceRoot}/playground/for_each/build/"
 		},
+		{
+			"name": "Debug: lambda",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "lambda",
+			"cwd": "${workspaceRoot}/playground/lambda/build/"
+		},
 	]
 }
