@@ -38,6 +38,15 @@
 			"group": "build"
 		},
 		{
+      "label": "build: vector",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}/playground/vector"
+			},
+      "command": "mkdir build && cd build && cmake .. && make",
+			"group": "build"
+		},
+		{
 			"label": "clean",
 			"type": "shell",
 			"command": "rm -rf **/build"

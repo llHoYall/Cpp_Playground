@@ -28,6 +28,13 @@
 			"request": "launch",
 			"target": "array",
 			"cwd": "${workspaceRoot}/playground/array/build/"
+		},
+		{
+			"name": "Debug: vector",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "vector",
+			"cwd": "${workspaceRoot}/playground/vector/build/"
 		}
 	]
 }
