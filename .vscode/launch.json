@@ -21,6 +21,13 @@
 			"request": "launch",
 			"target": "for-loop",
 			"cwd": "${workspaceRoot}/playground/for-loop/build/"
+		},
+		{
+			"name": "Debug: array",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "array",
+			"cwd": "${workspaceRoot}/playground/array/build/"
 		}
 	]
 }

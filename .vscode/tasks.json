@@ -29,6 +29,15 @@
 			"group": "build"
 		},
 		{
+      "label": "build: array",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}/playground/array"
+			},
+      "command": "mkdir build && cd build && cmake .. && make",
+			"group": "build"
+		},
+		{
 			"label": "clean",
 			"type": "shell",
 			"command": "rm -rf **/build"
