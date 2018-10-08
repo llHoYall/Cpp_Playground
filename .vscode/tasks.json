@@ -7,7 +7,7 @@
 			"options": {
 				"cwd": "${workspaceRoot}/playground/auto"
 			},
-      "command": "mkdir build && cd build && cmake .. && make",
+      "command": "mkdir -p build && cd build && cmake .. && make",
 			"group": "build"
 		},
 		{
@@ -16,7 +16,7 @@
 			"options": {
 				"cwd": "${workspaceRoot}/playground/decltype"
 			},
-      "command": "mkdir build && cd build && cmake .. && make",
+      "command": "mkdir -p build && cd build && cmake .. && make",
 			"group": "build"
 		},
 		{
@@ -25,7 +25,7 @@
 			"options": {
 				"cwd": "${workspaceRoot}/playground/for-loop"
 			},
-      "command": "mkdir build && cd build && cmake .. && make",
+      "command": "mkdir -p build && cd build && cmake .. && make",
 			"group": "build"
 		},
 		{
@@ -34,7 +34,7 @@
 			"options": {
 				"cwd": "${workspaceRoot}/playground/array"
 			},
-      "command": "mkdir build && cd build && cmake .. && make",
+      "command": "mkdir -p build && cd build && cmake .. && make",
 			"group": "build"
 		},
 		{
@@ -43,7 +43,7 @@
 			"options": {
 				"cwd": "${workspaceRoot}/playground/vector"
 			},
-      "command": "mkdir build && cd build && cmake .. && make",
+      "command": "mkdir -p build && cd build && cmake .. && make",
 			"group": "build"
 		},
 		{
@@ -52,7 +52,16 @@
 			"options": {
 				"cwd": "${workspaceRoot}/playground/sort"
 			},
-      "command": "mkdir build && cd build && cmake .. && make",
+      "command": "mkdir -p build && cd build && cmake .. && make",
+			"group": "build"
+		},
+		{
+      "label": "build: find",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}/playground/find"
+			},
+      "command": "mkdir -p build && cd build && cmake .. && make",
 			"group": "build"
 		},
 		{

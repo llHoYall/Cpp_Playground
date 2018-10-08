@@ -42,6 +42,13 @@
 			"request": "launch",
 			"target": "sort",
 			"cwd": "${workspaceRoot}/playground/sort/build/"
-		}
+		},
+		{
+			"name": "Debug: find",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "find",
+			"cwd": "${workspaceRoot}/playground/find/build/"
+		},
 	]
 }
