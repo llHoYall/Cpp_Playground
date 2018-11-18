@@ -2,6 +2,13 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
+			"name": "Debug: example",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "example",
+			"cwd": "${workspaceRoot}/example/build/"
+		},
+		{
 			"name": "Debug: auto",
 			"type": "lldb-mi",
 			"request": "launch",

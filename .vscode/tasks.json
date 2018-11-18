@@ -1,6 +1,15 @@
 {
   "version": "2.0.0",
   "tasks": [
+		{
+      "label": "build: example",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}/example"
+			},
+      "command": "mkdir -p build && cd build && cmake .. && make",
+			"group": "build"
+		},
     {
       "label": "build: auto",
 			"type": "shell",
