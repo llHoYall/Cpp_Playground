@@ -1,94 +1,97 @@
 {
   "version": "2.0.0",
-  "tasks": [
+	"tasks": [
 		{
-      "label": "build: example",
+			"label": "build: example",
 			"type": "shell",
 			"options": {
 				"cwd": "${workspaceRoot}/example"
 			},
-      "command": "mkdir -p build && cd build && cmake .. && make",
-			"group": "build"
+			"command": "mkdir -p build && cd build && cmake .. && make",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
 		},
-    {
-      "label": "build: auto",
+		{
+			"label": "build: auto",
 			"type": "shell",
 			"options": {
 				"cwd": "${workspaceRoot}/playground/auto"
 			},
-      "command": "mkdir -p build && cd build && cmake .. && make",
+			"command": "mkdir -p build && cd build && cmake .. && make",
 			"group": "build"
 		},
 		{
-      "label": "build: decltype",
+			"label": "build: decltype",
 			"type": "shell",
 			"options": {
 				"cwd": "${workspaceRoot}/playground/decltype"
 			},
-      "command": "mkdir -p build && cd build && cmake .. && make",
+			"command": "mkdir -p build && cd build && cmake .. && make",
 			"group": "build"
 		},
 		{
-      "label": "build: for-loop",
+			"label": "build: for-loop",
 			"type": "shell",
 			"options": {
 				"cwd": "${workspaceRoot}/playground/for-loop"
 			},
-      "command": "mkdir -p build && cd build && cmake .. && make",
+			"command": "mkdir -p build && cd build && cmake .. && make",
 			"group": "build"
 		},
 		{
-      "label": "build: array",
+			"label": "build: array",
 			"type": "shell",
 			"options": {
 				"cwd": "${workspaceRoot}/playground/array"
 			},
-      "command": "mkdir -p build && cd build && cmake .. && make",
+			"command": "mkdir -p build && cd build && cmake .. && make",
 			"group": "build"
 		},
 		{
-      "label": "build: vector",
+			"label": "build: vector",
 			"type": "shell",
 			"options": {
 				"cwd": "${workspaceRoot}/playground/vector"
 			},
-      "command": "mkdir -p build && cd build && cmake .. && make",
+			"command": "mkdir -p build && cd build && cmake .. && make",
 			"group": "build"
 		},
 		{
-      "label": "build: sort",
+			"label": "build: sort",
 			"type": "shell",
 			"options": {
 				"cwd": "${workspaceRoot}/playground/sort"
 			},
-      "command": "mkdir -p build && cd build && cmake .. && make",
+			"command": "mkdir -p build && cd build && cmake .. && make",
 			"group": "build"
 		},
 		{
-      "label": "build: find",
+			"label": "build: find",
 			"type": "shell",
 			"options": {
 				"cwd": "${workspaceRoot}/playground/find"
 			},
-      "command": "mkdir -p build && cd build && cmake .. && make",
+			"command": "mkdir -p build && cd build && cmake .. && make",
 			"group": "build"
 		},
 		{
-      "label": "build: for_each",
+			"label": "build: for_each",
 			"type": "shell",
 			"options": {
 				"cwd": "${workspaceRoot}/playground/for_each"
 			},
-      "command": "mkdir -p build && cd build && cmake .. && make",
+			"command": "mkdir -p build && cd build && cmake .. && make",
 			"group": "build"
 		},
 		{
-      "label": "build: lambda",
+			"label": "build: lambda",
 			"type": "shell",
 			"options": {
 				"cwd": "${workspaceRoot}/playground/lambda"
 			},
-      "command": "mkdir -p build && cd build && cmake .. && make",
+			"command": "mkdir -p build && cd build && cmake .. && make",
 			"group": "build"
 		},
 		{
@@ -96,5 +99,5 @@
 			"type": "shell",
 			"command": "rm -rf **/build"
 		}
-  ]
+	]
 }

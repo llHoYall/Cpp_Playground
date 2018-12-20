@@ -13,3 +13,10 @@ Capturing list는 lambda 표현식 바깥의 변수를 lambda 본문에서 어�
 Parameter list는 lambda 표현식을 사용할 때 넘겨줄 인수를 나타낸다.
 
 Body는 함수의 실제 구현 부분이다.
+
+## C++17
+
+C++17 부터는 lambda 표현식에 2개의 새로운 기능이 추가되었다.
+
+* Capture list에 `*this`를 사용해 객체의 복사본을 capture할 수 있다.
+* Lambda 표현식을 사용해서 `constexpr` 객체를 compile time에 생성할 수 있다.
