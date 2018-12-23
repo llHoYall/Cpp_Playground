@@ -71,5 +71,12 @@
 			"target": "lambda",
 			"cwd": "${workspaceRoot}/playground/lambda/build/"
 		},
+		{
+			"name": "Debug: smart-pointer",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "smart-pointer",
+			"cwd": "${workspaceRoot}/playground/smart-pointer/build/"
+		},
 	]
 }

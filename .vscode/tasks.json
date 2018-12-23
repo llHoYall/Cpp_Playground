@@ -95,6 +95,15 @@
 			"group": "build"
 		},
 		{
+			"label": "build: smart-pointer",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}/playground/smart-pointer"
+			},
+			"command": "mkdir -p build && cd build && cmake .. && make",
+			"group": "build"
+		},
+		{
 			"label": "clean",
 			"type": "shell",
 			"command": "rm -rf **/build"
