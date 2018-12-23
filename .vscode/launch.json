@@ -78,5 +78,12 @@
 			"target": "smart-pointer",
 			"cwd": "${workspaceRoot}/playground/smart-pointer/build/"
 		},
+		{
+			"name": "Debug: tuple",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "tuple",
+			"cwd": "${workspaceRoot}/playground/tuple/build/"
+		},
 	]
 }
