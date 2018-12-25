@@ -85,5 +85,12 @@
 			"target": "tuple",
 			"cwd": "${workspaceRoot}/playground/tuple/build/"
 		},
+		{
+			"name": "Debug: function",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "function",
+			"cwd": "${workspaceRoot}/playground/function/build/"
+		},
 	]
 }
