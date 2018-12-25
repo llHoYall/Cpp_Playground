@@ -92,5 +92,12 @@
 			"target": "function",
 			"cwd": "${workspaceRoot}/playground/function/build/"
 		},
+		{
+			"name": "Debug: immutability",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "immutability",
+			"cwd": "${workspaceRoot}/playground/immutability/build/"
+		},
 	]
 }
