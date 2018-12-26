@@ -99,5 +99,12 @@
 			"target": "immutability",
 			"cwd": "${workspaceRoot}/playground/immutability/build/"
 		},
+		{
+			"name": "Debug: recursion",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "recursion",
+			"cwd": "${workspaceRoot}/playground/recursion/build/"
+		}
 	]
 }
