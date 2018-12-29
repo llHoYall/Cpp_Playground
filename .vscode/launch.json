@@ -105,6 +105,13 @@
 			"request": "launch",
 			"target": "recursion",
 			"cwd": "${workspaceRoot}/playground/recursion/build/"
+		},
+		{
+			"name": "Debug: lazy-evaluation",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "lazy-evaluation",
+			"cwd": "${workspaceRoot}/playground/lazy-evaluation/build/"
 		}
 	]
 }

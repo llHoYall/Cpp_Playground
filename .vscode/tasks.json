@@ -140,6 +140,15 @@
 			"group": "build"
 		},
 		{
+			"label": "build: lazy-evaluation",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}/playground/lazy-evaluation"
+			},
+			"command": "mkdir -p build && cd build && cmake .. && make",
+			"group": "build"
+		},
+		{
 			"label": "clean",
 			"type": "shell",
 			"command": "rm -rf **/build"
