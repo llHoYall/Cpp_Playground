@@ -18,15 +18,49 @@ typedef std::function<int(int, int)> FuncType;
 typedef std::function<double(double)> HyperbolicFn;
 
 /* Private Variables ---------------------------------------------------------*/
+// Way 1
+// std::vector<HyperbolicFn> hb_fns = {
+// 	std::sinhl, std::coshl, std::tanhl, [](double x) {
+// 		return x * x;
+// 	}
+// };
+// std::vector<HyperbolicFn> inv_fns = {
+// 	std::asinhl, std::acoshl, std::atanhl, [](double x) {
+// 		return exp(log(x) / 2);
+// 	}
+// };
+
+// Way 2
+// using Hyper = double(*)(double);
+// std::vector<HyperbolicFn> hb_fns = {
+// 	static_cast<Hyper>(std::sinh),
+// 	static_cast<Hyper>(std::cosh),
+// 	static_cast<Hyper>(std::tanh),
+// 	[](double x) {
+// 		return x * x;
+// 	}
+// };
+// std::vector<HyperbolicFn> inv_fns = {
+// 	static_cast<Hyper>(std::asinh),
+// 	static_cast<Hyper>(std::acosh),
+// 	static_cast<Hyper>(std::atanh),
+// 	[](double x) {
+// 		return exp(log(x) / 2);
+// 	}
+// };
+
+// Way 3
 std::vector<HyperbolicFn> hb_fns = {
-	std::sinhl, std::coshl, std::tanhl, [](double x) {
-		return x * x;
-	}
+	[](double x) { return std::sinh(x); },
+	[](double x) { return std::cosh(x); },
+	[](double x) { return std::tanh(x); },
+	[](double x) { return x * x;        }
 };
 std::vector<HyperbolicFn> inv_fns = {
-	std::asinhl, std::acoshl, std::atanhl, [](double x) {
-		return exp(log(x) / 2);
-	}
+	[](double x) { return std::asinh(x);   },
+	[](double x) { return std::acosh(x);   },
+	[](double x) { return std::atanh(x);   },
+	[](double x) { return exp(log(x) / 2); }
 };
 
 /* Private Functions ---------------------------------------------------------*/
