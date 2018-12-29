@@ -112,6 +112,13 @@
 			"request": "launch",
 			"target": "lazy-evaluation",
 			"cwd": "${workspaceRoot}/playground/lazy-evaluation/build/"
+		},
+		{
+			"name": "Debug: meta-programming",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "meta-programming",
+			"cwd": "${workspaceRoot}/playground/meta-programming/build/"
 		}
 	]
 }
