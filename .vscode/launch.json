@@ -126,6 +126,13 @@
 			"request": "launch",
 			"target": "concurrency",
 			"cwd": "${workspaceRoot}/playground/concurrency/build/"
+		},
+		{
+			"name": "Debug: functional-programming",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "functional-programming",
+			"cwd": "${workspaceRoot}/playground/functional-programming/build/"
 		}
 	]
 }

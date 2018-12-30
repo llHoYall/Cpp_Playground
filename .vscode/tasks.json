@@ -167,6 +167,15 @@
 			"group": "build"
 		},
 		{
+			"label": "build: functional-programming",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}/playground/functional-programming"
+			},
+			"command": "mkdir -p build && cd build && cmake .. && make",
+			"group": "build"
+		},
+		{
 			"label": "clean",
 			"type": "shell",
 			"command": "rm -rf **/build"
