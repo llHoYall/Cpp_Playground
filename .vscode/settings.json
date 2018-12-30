@@ -16,6 +16,7 @@
 		"typeinfo": "cpp",
 		"algorithm": "cpp",
 		"functional": "cpp",
-		"cmath": "cpp"
+		"cmath": "cpp",
+		"chrono": "cpp"
 	}
 }

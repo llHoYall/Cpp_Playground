@@ -119,6 +119,13 @@
 			"request": "launch",
 			"target": "meta-programming",
 			"cwd": "${workspaceRoot}/playground/meta-programming/build/"
+		},
+		{
+			"name": "Debug: concurrency",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "concurrency",
+			"cwd": "${workspaceRoot}/playground/concurrency/build/"
 		}
 	]
 }
