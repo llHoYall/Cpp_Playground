@@ -41,6 +41,15 @@
 			"group": "build"
 		},
 		{
+			"label": "build: enum",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}/playground/enum"
+			},
+			"command": "mkdir -p build && cd build && cmake .. && make",
+			"group": "build"
+		},
+		{
 			"label": "build: for-loop",
 			"type": "shell",
 			"options": {

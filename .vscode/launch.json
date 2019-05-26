@@ -30,6 +30,13 @@
 			"cwd": "${workspaceRoot}/playground/decltype/build/"
 		},
 		{
+			"name": "Debug: enum",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "enum",
+			"cwd": "${workspaceRoot}/playground/enum/build/"
+		},
+		{
 			"name": "Debug: for-loop",
 			"type": "lldb-mi",
 			"request": "launch",
