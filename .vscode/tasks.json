@@ -23,6 +23,15 @@
 			"group": "build"
 		},
 		{
+			"label": "build: const",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}/playground/const"
+			},
+			"command": "mkdir -p build && cd build && cmake .. && make",
+			"group": "build"
+		},
+		{
 			"label": "build: decltype",
 			"type": "shell",
 			"options": {

@@ -16,6 +16,13 @@
 			"cwd": "${workspaceRoot}/playground/auto/build/"
 		},
 		{
+			"name": "Debug: const",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "const",
+			"cwd": "${workspaceRoot}/playground/const/build/"
+		},
+		{
 			"name": "Debug: decltype",
 			"type": "lldb-mi",
 			"request": "launch",
