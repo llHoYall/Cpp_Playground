@@ -26,7 +26,7 @@ auto main() -> int {
 	std::cout << "var_a: " << var_a2 << std::endl;
 
 	const double var_a3 = 1.4 * square(var);
-	// constexpr double var_b3 = 1.4 * quare(17);		// Error?
+	// constexpr double var_b3 = 1.4 * square(17);		// Error?
 	// constexpr double var_b3 = 1.4 * square(var);		// Error!
 
 	std::cout << "var_a: " << var_a3 << std::endl;
