@@ -9,6 +9,13 @@
 			"cwd": "${workspaceRoot}/example/build/"
 		},
 		{
+			"name": "Debug: assert",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "assert",
+			"cwd": "${workspaceRoot}/playground/assert/build/"
+		},
+		{
 			"name": "Debug: auto",
 			"type": "lldb-mi",
 			"request": "launch",

@@ -14,6 +14,15 @@
 			}
 		},
 		{
+			"label": "build: assert",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}/playground/assert"
+			},
+			"command": "mkdir -p build && cd build && cmake .. && make",
+			"group": "build"
+		},
+		{
 			"label": "build: auto",
 			"type": "shell",
 			"options": {
@@ -29,7 +38,8 @@
 				"cwd": "${workspaceRoot}/playground/const"
 			},
 			"command": "mkdir -p build && cd build && cmake .. && make",
-			"group": "build"
+			"group": "build",
+			"problemMatcher": "$gcc"
 		},
 		{
 			"label": "build: decltype",
