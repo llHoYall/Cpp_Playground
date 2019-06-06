@@ -9,6 +9,13 @@
 			"cwd": "${workspaceRoot}/example/build/"
 		},
 		{
+			"name": "Debug: array",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "array",
+			"cwd": "${workspaceRoot}/playground/array/build/"
+		},
+		{
 			"name": "Debug: assert",
 			"type": "lldb-mi",
 			"request": "launch",
@@ -21,6 +28,13 @@
 			"request": "launch",
 			"target": "auto",
 			"cwd": "${workspaceRoot}/playground/auto/build/"
+		},
+		{
+			"name": "Debug: concurrency",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "concurrency",
+			"cwd": "${workspaceRoot}/playground/concurrency/build/"
 		},
 		{
 			"name": "Debug: const",
@@ -44,34 +58,6 @@
 			"cwd": "${workspaceRoot}/playground/enum/build/"
 		},
 		{
-			"name": "Debug: for-loop",
-			"type": "lldb-mi",
-			"request": "launch",
-			"target": "for-loop",
-			"cwd": "${workspaceRoot}/playground/for-loop/build/"
-		},
-		{
-			"name": "Debug: array",
-			"type": "lldb-mi",
-			"request": "launch",
-			"target": "array",
-			"cwd": "${workspaceRoot}/playground/array/build/"
-		},
-		{
-			"name": "Debug: vector",
-			"type": "lldb-mi",
-			"request": "launch",
-			"target": "vector",
-			"cwd": "${workspaceRoot}/playground/vector/build/"
-		},
-		{
-			"name": "Debug: sort",
-			"type": "lldb-mi",
-			"request": "launch",
-			"target": "sort",
-			"cwd": "${workspaceRoot}/playground/sort/build/"
-		},
-		{
 			"name": "Debug: find",
 			"type": "lldb-mi",
 			"request": "launch",
@@ -86,25 +72,11 @@
 			"cwd": "${workspaceRoot}/playground/for_each/build/"
 		},
 		{
-			"name": "Debug: lambda",
+			"name": "Debug: for-loop",
 			"type": "lldb-mi",
 			"request": "launch",
-			"target": "lambda",
-			"cwd": "${workspaceRoot}/playground/lambda/build/"
-		},
-		{
-			"name": "Debug: smart-pointer",
-			"type": "lldb-mi",
-			"request": "launch",
-			"target": "smart-pointer",
-			"cwd": "${workspaceRoot}/playground/smart-pointer/build/"
-		},
-		{
-			"name": "Debug: tuple",
-			"type": "lldb-mi",
-			"request": "launch",
-			"target": "tuple",
-			"cwd": "${workspaceRoot}/playground/tuple/build/"
+			"target": "for-loop",
+			"cwd": "${workspaceRoot}/playground/for-loop/build/"
 		},
 		{
 			"name": "Debug: function",
@@ -114,6 +86,13 @@
 			"cwd": "${workspaceRoot}/playground/function/build/"
 		},
 		{
+			"name": "Debug: functional-programming",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "functional-programming",
+			"cwd": "${workspaceRoot}/playground/functional-programming/build/"
+		},
+		{
 			"name": "Debug: immutability",
 			"type": "lldb-mi",
 			"request": "launch",
@@ -121,11 +100,18 @@
 			"cwd": "${workspaceRoot}/playground/immutability/build/"
 		},
 		{
-			"name": "Debug: recursion",
+			"name": "Debug: iostream",
 			"type": "lldb-mi",
 			"request": "launch",
-			"target": "recursion",
-			"cwd": "${workspaceRoot}/playground/recursion/build/"
+			"target": "iostream",
+			"cwd": "${workspaceRoot}/playground/iostream/build/"
+		},
+		{
+			"name": "Debug: lambda",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "lambda",
+			"cwd": "${workspaceRoot}/playground/lambda/build/"
 		},
 		{
 			"name": "Debug: lazy-evaluation",
@@ -142,18 +128,39 @@
 			"cwd": "${workspaceRoot}/playground/meta-programming/build/"
 		},
 		{
-			"name": "Debug: concurrency",
+			"name": "Debug: recursion",
 			"type": "lldb-mi",
 			"request": "launch",
-			"target": "concurrency",
-			"cwd": "${workspaceRoot}/playground/concurrency/build/"
+			"target": "recursion",
+			"cwd": "${workspaceRoot}/playground/recursion/build/"
 		},
 		{
-			"name": "Debug: functional-programming",
+			"name": "Debug: smart-pointer",
 			"type": "lldb-mi",
 			"request": "launch",
-			"target": "functional-programming",
-			"cwd": "${workspaceRoot}/playground/functional-programming/build/"
-		}
+			"target": "smart-pointer",
+			"cwd": "${workspaceRoot}/playground/smart-pointer/build/"
+		},
+		{
+			"name": "Debug: sort",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "sort",
+			"cwd": "${workspaceRoot}/playground/sort/build/"
+		},
+		{
+			"name": "Debug: tuple",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "tuple",
+			"cwd": "${workspaceRoot}/playground/tuple/build/"
+		},
+		{
+			"name": "Debug: vector",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "vector",
+			"cwd": "${workspaceRoot}/playground/vector/build/"
+		},
 	]
 }
