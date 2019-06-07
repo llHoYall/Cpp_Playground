@@ -105,6 +105,15 @@
 			"group": "build"
 		},
 		{
+			"label": "build: fstream",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}/playground/fstream"
+			},
+			"command": "mkdir -p build && cd build && cmake .. && make",
+			"group": "build"
+		},
+		{
 			"label": "build: function",
 			"type": "shell",
 			"options": {

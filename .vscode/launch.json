@@ -79,6 +79,13 @@
 			"cwd": "${workspaceRoot}/playground/for-loop/build/"
 		},
 		{
+			"name": "Debug: fstream",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "fstream",
+			"cwd": "${workspaceRoot}/playground/fstream/build/"
+		},
+		{
 			"name": "Debug: function",
 			"type": "lldb-mi",
 			"request": "launch",
