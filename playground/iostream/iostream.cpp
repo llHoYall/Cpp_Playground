@@ -5,6 +5,8 @@
 auto main() -> int {
 	std::cout << "[iostream.cpp]" << std::endl;
 
+	std::ios_base::sync_with_stdio(false);
+
 	// decimal, hexadecimal, octal
 	std::cout << 1234 << ", " << std::hex << 1234 << ", " << std::oct << 1234 << '\n';
 
