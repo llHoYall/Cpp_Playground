@@ -58,6 +58,13 @@
 			"cwd": "${workspaceRoot}/playground/enum/build/"
 		},
 		{
+			"name": "Debug: file",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "file",
+			"cwd": "${workspaceRoot}/playground/file/build/"
+		},
+		{
 			"name": "Debug: find",
 			"type": "lldb-mi",
 			"request": "launch",
@@ -77,13 +84,6 @@
 			"request": "launch",
 			"target": "for-loop",
 			"cwd": "${workspaceRoot}/playground/for-loop/build/"
-		},
-		{
-			"name": "Debug: fstream",
-			"type": "lldb-mi",
-			"request": "launch",
-			"target": "fstream",
-			"cwd": "${workspaceRoot}/playground/fstream/build/"
 		},
 		{
 			"name": "Debug: function",

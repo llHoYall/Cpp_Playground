@@ -2,8 +2,8 @@
 #include <iostream>
 #include <fstream>
 
-/* Main Routine --------------------------------------------------------------*/
-auto main() -> int {
+/* API Functions -------------------------------------------------------------*/
+auto FStream() -> int {
 	std::cout << "[fstream.cpp]" << std::endl;
 
 	std::ofstream ofs {"fname"};

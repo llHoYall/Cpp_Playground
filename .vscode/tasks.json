@@ -78,6 +78,15 @@
 			"group": "build"
 		},
 		{
+			"label": "build: file",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}/playground/file"
+			},
+			"command": "mkdir -p build && cd build && cmake .. && make",
+			"group": "build"
+		},
+		{
 			"label": "build: find",
 			"type": "shell",
 			"options": {
@@ -100,15 +109,6 @@
 			"type": "shell",
 			"options": {
 				"cwd": "${workspaceRoot}/playground/for-loop"
-			},
-			"command": "mkdir -p build && cd build && cmake .. && make",
-			"group": "build"
-		},
-		{
-			"label": "build: fstream",
-			"type": "shell",
-			"options": {
-				"cwd": "${workspaceRoot}/playground/fstream"
 			},
 			"command": "mkdir -p build && cd build && cmake .. && make",
 			"group": "build"
