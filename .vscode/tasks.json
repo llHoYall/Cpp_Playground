@@ -186,6 +186,15 @@
 			"group": "build"
 		},
 		{
+			"label": "build: regex",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}/playground/regex"
+			},
+			"command": "mkdir -p build && cd build && cmake .. && make",
+			"group": "build"
+		},
+		{
 			"label": "build: smart-pointer",
 			"type": "shell",
 			"options": {

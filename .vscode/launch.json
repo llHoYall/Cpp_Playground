@@ -142,6 +142,13 @@
 			"cwd": "${workspaceRoot}/playground/recursion/build/"
 		},
 		{
+			"name": "Debug: regex",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "regex",
+			"cwd": "${workspaceRoot}/playground/regex/build/"
+		},
+		{
 			"name": "Debug: smart-pointer",
 			"type": "lldb-mi",
 			"request": "launch",
