@@ -163,6 +163,13 @@
 			"cwd": "${workspaceRoot}/playground/sort/build/"
 		},
 		{
+			"name": "Debug: span",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "span",
+			"cwd": "${workspaceRoot}/playground/span/build/"
+		},
+		{
 			"name": "Debug: tuple",
 			"type": "lldb-mi",
 			"request": "launch",

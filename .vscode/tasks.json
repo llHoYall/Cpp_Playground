@@ -213,6 +213,15 @@
 			"group": "build"
 		},
 		{
+			"label": "build: span",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}/playground/span"
+			},
+			"command": "mkdir -p build && cd build && cmake .. && make",
+			"group": "build"
+		},
+		{
 			"label": "build: tuple",
 			"type": "shell",
 			"options": {
