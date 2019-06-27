@@ -170,6 +170,13 @@
 			"cwd": "${workspaceRoot}/playground/span/build/"
 		},
 		{
+			"name": "Debug: time",
+			"type": "lldb-mi",
+			"request": "launch",
+			"target": "time",
+			"cwd": "${workspaceRoot}/playground/time/build/"
+		},
+		{
 			"name": "Debug: tuple",
 			"type": "lldb-mi",
 			"request": "launch",
